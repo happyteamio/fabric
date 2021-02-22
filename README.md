@@ -17,11 +17,11 @@
 Uwaga: obrazek B ma na celu tylko zaprezentowanie ostatecznego wyniku, nie należy sugerowac się proporcjami ani konkretnym wyglądem ikon przy narożnikach (mogą być dowolne).
 
 ### 2. Dodaj przycisk UI symulujący menu kontekstowe dla aktywnego obiektu (dalej - element UI)
-**Cel: Element UI ma służyć do kontrolowania koloru elementu graficznego. Po wciśnięciu następuje zmiana kolor, może być random.
+**Cel: Element UI ma służyć do zmiany koloru elementu graficznego na lewy przycisk myszy (kolor może być losowy).
 
 ## wymagania szczegółowe do powyższych zadań:
 
-1. element UI musi być pod kontrolą frameworku React, element graficzny z wykorzystaniem Fabric
+1. element UI musi być HTML-owy (pod kontrolą React, nie fabric). Estetyka elementu nie ma znaczenia, ma działać
 2. padding elementu graficznego:
 - obramowania 10 px od obiektu,
 - ikony na krańcach 10 px od obramowania,
